@@ -1,8 +1,3 @@
-def print_data(data):
-    print(data)
-
-
-
 def input_data():
     answer = ""
     data = input("Записать данные (нажмите 1) | Найти данные (нажмите 2): ")
@@ -18,6 +13,4 @@ def input_data():
         answer = "4"
     else:
         answer = input("По каким данным произвести поиск: ")
-    return answer
-        print("Вы не верно ввели номер нужного действия!")
     return answer
